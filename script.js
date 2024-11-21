@@ -28,7 +28,7 @@ const projects = [
             "designed to showcase my skills, projects, and personal brand. Built using fundamental HTML and CSS, " +
             "this site serves as a digital representation of my journey as a developer. I have since built another " +
             "portfolio site (this one you're currently on) using JavaScript.",
-        imgSrc: "/assets/portfolioScreenshot.png",
+        imgSrc: "/portfolioScreenshot.png",
         github: "https://github.com/emferrari31/portfolio",
         liveDemo: "https://emferrari31.github.io/portfolio/",
         tags: ["html", "css"]
@@ -40,7 +40,7 @@ const projects = [
             " user-friendly interface. The game allows users to press a 'Deal' button to refresh the page, reloading " +
             "the game and resetting the gameplay. Built using PHP for the backend logic, and HTML and CSS for the " +
             "frontend, this project showcases a blend of functional programming and web development skills.",
-        imgSrc: "/assets/blackjackscreenshot.png",
+        imgSrc: "/blackjackscreenshot.png",
         github: "https://github.com/emferrari31/php-blackJack",
         liveDemo: "https://2024-emmaf.dev.io-academy.uk/phpBlackJackGame/",
         tags: ["#php", "#html", "#css"]
@@ -50,7 +50,7 @@ const projects = [
         description: "The Collection Application is a personal project inspired by my passion for photography. Built " +
             "using PHP, HTML, CSS, and a SQL database, this web application allows users to showcase and manage " +
             "their photo collections effortlessly.",
-        imgSrc: "/assets/collectionAppScreenshot.png",
+        imgSrc: "/collectionAppScreenshot.png",
         github: "https://github.com/emferrari31/collection-app",
         liveDemo: "https://2024-emmaf.dev.io-academy.uk/collection-app/index.php",
         tags: ["php", "sql", "html", "css"]
@@ -60,7 +60,7 @@ const projects = [
         description: "The Film Quote Quiz Game is an engaging group project developed by a team of six, " +
             "designed to test users' knowledge of iconic movie quotes. Using JavaScript, HTML, and CSS, we created an " +
             "interactive web application that combines fun and learning for film enthusiasts.",
-        imgSrc: "/assets/Updated%20Film%20Game.png",
+        imgSrc: "/Updated%20Film%20Game.png",
         github: "https://github.com/emferrari31/2024-jul-fst-film-quote-quiz",
         liveDemo: "https://io-academy.github.io/2024-jul-fst-film-quote-quiz/",
         tags: ["javascript", "html", "css"]
@@ -71,7 +71,7 @@ const projects = [
             "responsible for building the backend to support a pre-existing front end for a furniture store website. " +
             "Our focus was on creating a robust API that facilitates seamless data interaction between the " +
             "frontend and backend.",
-        imgSrc: "/assets/furnitureStoreApi.png",
+        imgSrc: "/furnitureStoreApi.png",
         github: "https://github.com/iO-Academy/24-jul-hippos-furniture-store-API",
         liveDemo: "https://2024-henryt.dev.io-academy.uk/build/",
         tags: ["oop", "sql", "php"]
@@ -81,7 +81,7 @@ const projects = [
         description: "The Planet Age Calculator is a web application designed to help users determine their age on " +
             "different planets in our solar system. Developed as part of the iO Academy course, this solo exercise " +
             "showcases my skills in TypeScript, HTML, and CSS.",
-        imgSrc: "/assets/planet.png",
+        imgSrc: "/planet.png",
         github: "https://github.com/emferrari31/planet-age-calculator",
         liveDemo: "https://emferrari31.github.io/planet-age-calculator/",
         tags: ["typescript", "javascript", "html", "css"]
@@ -91,7 +91,7 @@ const projects = [
         description: "A solo exercise on the iO Academy course, this project is a to-do application that " +
             "allows users to create, read, update, and delete tasks. It employs React for the front end, following the " +
             "MVC architecture for a clean separation of concerns, and Slim as the backend framework.",
-        imgSrc: "/assets/todoappscreenshot.png",
+        imgSrc: "/todoappscreenshot.png",
         github: "https://github.com/emferrari31/todoApp",
         liveDemo: "https://todoapp.2024-emmaf.dev.io-academy.uk/",
         tags: ["mvc", "react", "tailwind", "slim", "sql"]
@@ -103,7 +103,7 @@ const projects = [
             "and design of a site I admired. However, as the project evolved, I decided to give it its own unique" +
             " identity, creating a brand and business concept to accompany the website. The platform was developed " +
             "using React, JavaScript, and CSS, with a focus on delivering a seamless user experience and responsive design.",
-        imgSrc: "/assets/e-commerceSite.png",
+        imgSrc: "/e-commerceSite.png",
         github: "https://github.com/emferrari31/ecommerce-store",
         liveDemo: "https://ecom.2024-emmaf.dev.io-academy.uk/",
         tags: ["react", "html", "css", "javascript"]
