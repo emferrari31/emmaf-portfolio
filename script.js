@@ -71,7 +71,7 @@ const projects = [
             "responsible for building the backend to support a pre-existing front end for a furniture store website. " +
             "Our focus was on creating a robust API that facilitates seamless data interaction between the " +
             "frontend and backend.",
-        imgSrc: "/furnitureStoreApi.png",
+        imgSrc: "/assets/furnitureStoreApi.png",
         github: "https://github.com/iO-Academy/24-jul-hippos-furniture-store-API",
         liveDemo: "https://2024-henryt.dev.io-academy.uk/build/",
         tags: ["oop", "sql", "php"]
@@ -81,7 +81,7 @@ const projects = [
         description: "The Planet Age Calculator is a web application designed to help users determine their age on " +
             "different planets in our solar system. Developed as part of the iO Academy course, this solo exercise " +
             "showcases my skills in TypeScript, HTML, and CSS.",
-        imgSrc: "/planet.png",
+        imgSrc: "/assets/planet.png",
         github: "https://github.com/emferrari31/planet-age-calculator",
         liveDemo: "https://emferrari31.github.io/planet-age-calculator/",
         tags: ["typescript", "javascript", "html", "css"]
