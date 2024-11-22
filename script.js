@@ -20,7 +20,6 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll('.hidden')
 hiddenElements.forEach((el) => observer.observe(el))
-
 const projects = [
     {
         title: "Portfolio Site",
@@ -111,7 +110,6 @@ const projects = [
 ];
 
 const projectContainer = document.querySelector('.portfolioSection');
-
 projects.reverse();
 
 projects.forEach(project => {
@@ -121,19 +119,17 @@ projects.forEach(project => {
     <div class="card-front">
       <img style="max-width: 80%; border-radius: 5px;" src="${project.imgSrc}" alt="Screenshot of ${project.title}">
       <h3>${project.title}</h3>
-<div class="tags">
+        <div class="tags">
     ${project.tags
         .map(tag => `<span class="tag">${tag}</span>`)
         .join('')}
-</div>
-
+        </div>
     </div>
     <div class="card-back">
       <h3>${project.title}</h3>
       <p>${project.description}</p>
       <a href="${project.github}" target="_blank">GitHub</a>
       <a href="${project.liveDemo}" target="_blank">Live Demo</a>
-
     </div>
   `;
     projectContainer.appendChild(projectCard);
