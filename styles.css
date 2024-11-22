@@ -57,17 +57,16 @@ body {
     color: white;
 }
 
-.hero .caption h2 {
-    animation: float 3s ease-in-out infinite;
-
-}
-
 .hero-video {
     display: none; /* Hide video on mobile */
 }
 
-.hero-image {
-    display: block; /* Show image on mobile */
+/*.hero-image {*/
+/*    display: block; !* Show image on mobile *!*/
+/*}*/
+
+.hero .caption h2 {
+    animation: float 3s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -97,9 +96,6 @@ body {
     position: relative;
     z-index: 30;
     color: white;
-    /*display: flex;*/
-    /*justify-content: space-between; !* Space out logo and menu *!*/
-    /*padding: 10px 20px;*/
 }
 
 .topnav #myLinks {
@@ -338,24 +334,24 @@ a {
 #jumpContact {
     scroll-margin-top: 100px;
 }
-.hero-video,
-.hero-image {
-    display: none;
-}
+/*.hero-video,*/
+/*.hero-image {*/
+/*    display: none;*/
+/*}*/
 
-/* Mobile Screens */
-@media (max-width: 599px) {
-    .hero-image {
-        display: block;
-    }
-}
+/*!* Mobile Screens *!*/
+/*@media (max-width: 599px) {*/
+/*    .hero-image {*/
+/*        display: block;*/
+/*    }*/
+/*}*/
 
-/* Larger Screens */
-@media (min-width: 600px) {
-    .hero-video {
-        display: block;
-    }
-}
+/*!* Larger Screens *!*/
+/*@media (min-width: 600px) {*/
+/*    .hero-video {*/
+/*        display: block;*/
+/*    }*/
+/*}*/
 
 /*LARGE SCREENS*/
 @media only screen and (min-width: 600px) {
