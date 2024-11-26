@@ -18,6 +18,30 @@ const observer = new IntersectionObserver((entries) => {
     })
 })
 
+//To stop the video from appearing on the mobile
+document.querySelector('#jumpHome').addEventListener('click', function() {
+    // Wait for a moment to make sure the page has jumped
+    setTimeout(() => {
+        if (window.innerWidth < 600) {
+            // If on mobile, force hide the video and show the still image
+            document.querySelector('.hero video').style.display = 'none';
+            document.querySelector('.hero .hero-image').style.display = 'block';
+        } else {
+            // If on desktop, show the video and hide the still image
+            document.querySelector('.hero video').style.display = 'block';
+            document.querySelector('.hero .hero-image').style.display = 'none';
+        }
+    }, 100); // Slight delay to ensure scroll behavior is finished
+});
+
+if (window.innerWidth >= 600) {
+    document.querySelector('.hero video').setAttribute('autoplay', 'true');
+} else {
+    document.querySelector('.hero video').removeAttribute('autoplay');
+}
+
+
+
 const hiddenElements = document.querySelectorAll('.hidden')
 hiddenElements.forEach((el) => observer.observe(el))
 const projects = [
