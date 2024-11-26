@@ -353,6 +353,16 @@ a {
 /*    }*/
 /*}*/
 
+@media (max-width: 599px) {
+    .hero-video {
+        display: none;
+    }
+    .hero-image {
+        display: block; /* Show image on mobile */
+    }
+}
+
+
 /*LARGE SCREENS*/
 @media only screen and (min-width: 600px) {
     .logo {
