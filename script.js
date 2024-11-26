@@ -51,7 +51,7 @@ const projects = [
             "designed to showcase my skills, projects, and personal brand. Built using fundamental HTML and CSS, " +
             "this site serves as a digital representation of my journey as a developer. I have since built another " +
             "portfolio site (this one you're currently on) using JavaScript.",
-        imgSrc: "portfolioScreenshot.png",
+        imgSrc: "/portfolioScreenshot.png",
         github: "https://github.com/emferrari31/portfolio",
         liveDemo: "https://emferrari31.github.io/portfolio/",
         tags: ["html", "css"]
