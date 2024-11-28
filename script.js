@@ -152,8 +152,8 @@ projects.forEach(project => {
     <div class="card-back">
       <h3>${project.title}</h3>
       <p>${project.description}</p>
-      <a href="${project.github}" target="_blank">GitHub</a>
-      <a href="${project.liveDemo}" target="_blank">Live Demo</a>
+      <a href="${project.github}" target="_blank"><button class="gitBtn">GitHub</button></a>
+      <a href="${project.liveDemo}" target="_blank"><button class="liveBtn">Live Demo</button></a>
     </div>
   `;
     projectContainer.appendChild(projectCard);
