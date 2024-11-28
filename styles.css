@@ -40,7 +40,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: black; /* Optional fallback background color */
+    background-color: #161d2e;
     z-index: 1;
 }
 
@@ -251,8 +251,8 @@ a {
 
 .card {
     position: relative;
-    width: 100%; /* Ensure the cards adapt to the grid */
-    height: 350px; /* Adjust card height */
+    width: 100%;
+    height: 350px;
     perspective: 1000px;
 }
 
@@ -272,7 +272,7 @@ a {
 }
 
 .card-front {
-    background-color: lightblue; /* Match your color scheme */
+    background-color: lightblue;
     font-size: 1rem;
     text-align: center;
 }
@@ -304,7 +304,6 @@ a {
     color: white;
     padding: 15rem 6rem;
     text-align: center;
-
 }
 
 .contact h1 {
@@ -318,7 +317,7 @@ a {
 }
 
 .mailto:hover {
-    color: lightblue;  /* Change text color on hover */
+    color: lightblue;
 }
 
 .github {
@@ -333,7 +332,6 @@ a {
 .linkedin {
     font-size: 3rem;
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
-
 }
 
 .linkedin:hover {
@@ -346,8 +344,8 @@ a {
     align-content: space-between;
     gap: 10px;
     flex-wrap: wrap;
-
 }
+
 .tag {
     border: solid black 1px;
     border-radius: 14px;
@@ -363,13 +361,14 @@ a {
 #jumpAboutMe {
     scroll-margin-top: 100px;
 }
+
 #jumpProjects {
     scroll-margin-top: 100px;
 }
+
 #jumpContact {
     scroll-margin-top: 100px;
 }
-
 
 @media (max-width: 599px) {
     .hero-video {
@@ -379,7 +378,6 @@ a {
         display: block; /* Show image on mobile */
     }
 }
-
 
 /*LARGE SCREENS*/
 @media only screen and (min-width: 600px) {
@@ -419,7 +417,6 @@ a {
     .aboutMeCard {
         padding: 20px;
         margin-top: 45px;
-        /*width: 40vw;*/
         line-height: 1.9;
         border-radius: 10px;
     }
@@ -452,18 +449,17 @@ a {
 
     .portfolioSection {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* Responsive grid */
-        /*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); !* Responsive grid *!*/
-        gap: 3rem; /* Space between cards */
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
         padding: 2rem;
         max-width: 1200px;
-        margin: 0 auto; /* Center align the section */
+        margin: 0 auto;
     }
 
     .card {
         position: relative;
-        width: 100%; /* Ensure the cards adapt to the grid */
-        height: 350px; /* Adjust card height */
+        width: 100%;
+        height: 350px;
         perspective: 1000px;
     }
 
@@ -483,7 +479,7 @@ a {
     }
 
     .card-front {
-        background-color: lightblue; /* Match your color scheme */
+        background-color: lightblue;
         font-size: 1rem;
         text-align: center;
     }
@@ -547,4 +543,3 @@ a {
         cursor: pointer;
     }
 }
-
