@@ -404,31 +404,31 @@ a {
 
 .blogSection {
     color: white;
-    margin: 20px;
+    margin: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     line-height: 1.6;
-    font-size: 19px;
+    font-size: 16px;
 }
 
 .post1  {
     text-align: left;
     border: white solid 1px;
-    padding: 40px;
+    padding: 20px;
     margin-bottom: 30px;
 }
 
 .post2  {
     text-align: left;
     border: white solid 1px;
-    padding: 40px;
+    padding: 20px;
 }
 
 .blog2image1, .blog2image2 {
-    width: 1000px;
+    width: 260px;
 }
 
 @media (max-width: 599px) {
@@ -603,5 +603,49 @@ a {
         font-size: 18px;
         cursor: pointer;
     }
+    /*blog section*/
+    .navBarBlog a:hover {
+        color: lightblue;
+    }
 
+    .navBarBlog {
+        text-align: right;
+        font-size: 17px;
+        padding: 14px 16px;
+    }
+
+    .blogHero {
+        background-color: lightblue;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .blogSection {
+        color: white;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+        line-height: 1.6;
+        font-size: 19px;
+    }
+
+    .post1  {
+        text-align: left;
+        border: white solid 1px;
+        padding: 40px;
+        margin-bottom: 30px;
+    }
+
+    .post2  {
+        text-align: left;
+        border: white solid 1px;
+        padding: 40px;
+    }
+
+    .blog2image1, .blog2image2 {
+        width: 1000px;
+    }
 }
