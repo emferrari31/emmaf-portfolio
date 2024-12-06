@@ -428,7 +428,7 @@ a {
 }
 
 .blog2image1, .blog2image2 {
-    width: 260px;
+    width: 70vw;
 }
 
 @media (max-width: 599px) {
@@ -646,6 +646,6 @@ a {
     }
 
     .blog2image1, .blog2image2 {
-        width: 1000px;
+        width: 70vw;
     }
 }
