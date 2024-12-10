@@ -136,3 +136,17 @@ new Typed(".typedText", {
     backSpeed: 80,
     backDelay: 2000
 });
+
+// Function to toggle the content visibility (for each post)
+function toggleContent(contentId) {
+    const content = document.getElementById(contentId);
+    const btn = content.previousElementSibling;  // The button just before the content div
+
+    if (content.style.display === 'none') {
+        content.style.display = 'block';
+        btn.textContent = 'Read Less';  // Change button text when expanded
+    } else {
+        content.style.display = 'none';
+        btn.textContent = 'Read More';  // Change button text when collapsed
+    }
+}

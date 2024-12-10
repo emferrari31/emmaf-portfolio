@@ -23,6 +23,8 @@
     <div class="blogContainer">
       <div class="post1">
         <h1>Welcome! A little bit about me...</h1>
+        <button class="expandBtn" onclick="toggleContent('content1')">Read More</button>
+        <div id="content1" class="content" style="display:none">
         <p>
           Welcome to my blog page and my first post! My name is Emma, I'm a Full Stack Developer from Bath in Somerset. <br><br>
           It's 5th December 2024. The weather is very windy and overcast and the boiler is being temperamental.
@@ -64,10 +66,13 @@
           See you in the next one! <br><br>
           5th December 2024
         </p>
+        </div>
       </div>
 
       <div class="post2">
         <h1>Best way to learn is to copy, right?</h1>
+        <button class="expandBtn" onclick="toggleContent('content2')">Read More</button>
+        <div id="content2" class="content" style="display:none">
         <p>
           I haven't got an ongoing project currently, and I've been deciding how best I should use my time to progress
           my learning. I have so many notes on my Notion account that I'm struggling to add more without it telling me
@@ -93,10 +98,13 @@
           while lining up with the two fields below. <br><br>
           5th December 2024
         </p>
+        </div>
       </div>
 
       <div class="post3">
         <h1>PHP Refresher - Command Line Heads or Tails Game</h1>
+        <button class="expandBtn" onclick="toggleContent('content3')">Read More</button>
+        <div id="content3" class="content" style="display:none">
         <p>
           I haven't fancied a big project for a few days - I've found myself more interested in returning to my notes
           from my bootcamp and revisiting exercises and projects I've moved on from. There's something magical about
@@ -114,10 +122,8 @@
           6th December 2024
         </p>
       </div>
-
     </div>
   </section>
 </main>
-
 </body>
 </html>
