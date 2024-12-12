@@ -435,6 +435,13 @@ a {
     margin-bottom: 30px;
 }
 
+.post4  {
+    text-align: left;
+    border: white solid 1px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
 .blog2image1, .blog2image2, .blog3image1, .blog3image2, .blog3image3{
     width: 70vw;
 }
@@ -666,6 +673,13 @@ a {
     }
 
     .post3  {
+        text-align: left;
+        border: white solid 1px;
+        padding: 40px;
+        margin-bottom: 30px;
+    }
+
+    .post4  {
         text-align: left;
         border: white solid 1px;
         padding: 40px;
