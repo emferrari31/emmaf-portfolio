@@ -456,7 +456,14 @@ a {
     margin-bottom: 30px;
 }
 
-.blog2image1, .blog2image2, .blog3image1, .blog3image2, .blog3image3, .blog5video1{
+.post7  {
+    text-align: left;
+    border: white solid 1px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.blog2image1, .blog2image2, .blog3image1, .blog3image2, .blog3image3, .blog5video1, .blog6image1, .blog6image2, .blog7image1{
     width: 70vw;
 }
 
@@ -714,7 +721,14 @@ a {
         margin-bottom: 30px;
     }
 
-    .blog2image1, .blog2image2, .blog3image1, .blog3image2, .blog3image3, .blog5video1, .blog6image1, .blog6image2 {
+    .post7  {
+        text-align: left;
+        border: white solid 1px;
+        padding: 40px;
+        margin-bottom: 30px;
+    }
+
+    .blog2image1, .blog2image2, .blog3image1, .blog3image2, .blog3image3, .blog5video1, .blog6image1, .blog6image2, .blog7image1 {
         width: 70vw;
     }
 }
