@@ -64,7 +64,7 @@
           So, what can you expect from this blog? I'm not entirely sure yet, but certainly notes on projects I'm working
           on, things I find cool/interesting, and reflections on where I'm at. <br><br>
           See you in the next one! <br><br>
-          5th December 2024
+          <small>5th December 2024</small>
         </p>
         </div>
       </div>
@@ -96,7 +96,7 @@
           My main area of learning: <br>
           Getting the First name and Last name input fields to line up next to each other,
           while lining up with the two fields below. <br><br>
-          5th December 2024
+          <small>5th December 2024</small>
         </p>
         </div>
       </div>
@@ -119,7 +119,7 @@
           <img class="blog3image2" src="headsOrTails2.png" alt="screenshot of heads or tails code"> <br><br>
           <img class="blog3image3" src="headsOrTails3.png" alt="screenshot of heads or tails code"> <br><br>
           Nice to refresh my PHP brain! <br><br>
-          6th December 2024
+          <small>6th December 2024</small>
         </p>
       </div>
     </div>
@@ -153,7 +153,7 @@
             - Recipe CRUD App<br>
             <br><br>
             That feels better already. <br><br>
-            12th December 2024
+            <small>12th December 2024</small>
           </p>
         </div>
       </div>
@@ -178,7 +178,7 @@
             - Prototype - Ability to add navigation from one page to another, gain a feel for how it flows, and so can
             make changes before building the project <br><br>
             I'm excited to use this for my next project!<br><br>
-            12th December 2024
+            <small>12th December 2024</small>
           </p>
         </div>
       </div>
@@ -208,7 +208,7 @@
             doing it (it's because I hadn't, it turned out) and given I was just working on my other to-do app this
             morning, it seemed sensible to dive in. <br>
 
-            16th December 2024
+            <small>16th December 2024</small>
           </p>
         </div>
       </div>
@@ -218,32 +218,73 @@
         <button class="expandBtn" onclick="toggleContent('content7')">Read More</button>
         <div id="content7" class="content" style="display:none">
           <p>
-            <img class="blog7image1" src="SQLiteToDo.png" alt="screenshot of sqlite todo app"></img><br>
             After trying (and failing) to upload the style changes made to my to-do app, I've decided to move away and
             focus on something I can get stuck into on this Monday afternoon, so instead I tripped and fell into a new
             mini project - Another to-do app, this time with SQLite instead of MySQL. And understanding the difference
-            between the two. <br><br> I came across SQLite while doing a codecademy course and never really delved
-            into it. I was reading through my notes and found a code snippet I couldn't really make sense of.
-            Said-code-snippet is a to-do app, and it was a demonstration to show that using PHP, you could create a CRUD
-            application on the browser.<br>
-            My first to do app that you can see on my portfolio was built using a mysql database. This requires a server
-            to operate, whereas SQLite does not. My understanding from my research is: <br> <br>
-            MySQL:<br>
+            between the two.<br><br>
+            <img class="blog7image1" src="SQLiteToDo.png" alt="screenshot of sqlite todo app"></img><br><br>
+
+            I first encountered SQLite during a Codecademy course, but I never really took the time to explore it in
+            depth. While reviewing my notes, I came across a code snippet I didn’t fully understand. It turned out to
+            be part of a to-do app, demonstrating how PHP can be used to create a simple CRUD application in the browser.
+            <br>
+            My first to-do app (which you can see on my portfolio) was built using a MySQL database. MySQL requires a
+            server to operate, whereas SQLite does not. Here's a quick comparison of my understanding after researching
+            both: <br><br>
+
+            <strong>MySQL:</strong><br>
             -> Requires a server <br>
-            -> Takes more configuration to set up
-            -> Can handle a lot of data <br>
-            -> Can handle multiple users <br><br>
+            -> Takes more configuration to set up <br>
+            -> Can handle large amounts of data <br>
+            -> Supports multiple users <br><br>
 
-            SQLite:<br>
+            <strong>SQLite:</strong><br>
             -> Does not require a server <br>
-            -> Takes running a short bit of code once to set it up <br>
-            -> Cannot handle a lot of data <br>
-            -> Cannot handle multiple users <br><br>
+            -> Requires only a small amount of setup code <br>
+            -> Not designed for large datasets <br>
+            -> Does not handle multiple users well <br><br>
 
-            So essentially, my impression is SQLite is ideal for small projects and perhaps testing things out, whereas MySQL is more of
-            an all-rounder and better choice if you're thinking of scalability. <br><br>
+            Essentially, I see SQLite as an ideal choice for small projects, personal apps, or quick tests, while MySQL is better suited for large-scale applications that require scalability and multi-user support. <br><br>
 
-            16th December 2024
+            <strong>Setting Up the SQLite To-Do App</strong><br>
+            To begin, I set up a simple folder structure for the project:<br><br>
+         <code>
+           todoappsqlite/<br>
+           ├── db/<br>
+           │   └── sqlite.db<br>
+           ├── index.php<br>
+           └── styles.css<br><br>
+         </code>
+          In the root directory of the project, I created the SQLite database file (`todo.db`) using the following
+            setup code: <br><br>
+            <img class="blog7image1" src="sqliteCode.png" alt="screenshot of set up code for sqlite db"><br><br>
+
+          This code runs once when the app is first loaded, creating the SQLite database and a simple table (`todos`)
+            to store the to-do items. Each task has an `id`, a `description` text field, and a `complete` field to track
+            whether it's done or not.<br><br>
+
+          <strong>Building the Rest of the Page</strong><br>
+          Once the database was set up, I moved on to building the main to-do app page (`index.php`). Here, I created
+            the functionality to display tasks from the database, as well as options to add new tasks, mark them as
+            completed, and delete them. The page was designed to be simple and intuitive, with a clean interface for
+            interacting with tasks.<br>
+
+          Here's a quick overview of what I implemented:
+          <ul>
+            <li><strong>Display Tasks:</strong> Tasks are fetched from the SQLite database and displayed in a list on the page.</li>
+            <li><strong>Add Task:</strong> Users can input a new task, which gets inserted into the database.</li>
+            <li><strong>Mark as Completed:</strong> Clicking a task updates its `completed` status in the database.</li>
+            <li><strong>Delete Task:</strong> Tasks can be deleted, removing them from the database.</li>
+          </ul>
+          Since SQLite does not require a server, the app runs locally without any complex server-side setup. It’s
+          lightweight and perfect for small projects like this one.<br><br>
+
+          <strong>Final Thoughts</strong><br>
+          Overall, building this SQLite to-do app was a great way to dive deeper into databases and gain a better
+          understanding of SQLite's simplicity and limitations. <br><br>
+
+          <small>16th December 2024</small>
+
           </p>
         </div>
       </div>
