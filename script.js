@@ -85,7 +85,7 @@ const projects = [
         imgSrc: "planet.png",
         github: "https://github.com/emferrari31/planet-age-calculator",
         liveDemo: "https://emferrari31.github.io/planet-age-calculator/",
-        tags: ["typescript", "javascript", "html", "css"]
+        tags: [ "javascript", "html", "css"]
     },
     {
         title: "CRUD To-do App",
