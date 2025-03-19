@@ -109,8 +109,16 @@ const projects = [
         imgSrc: "weather_app.png",
         github: "https://github.com/emferrari31/fs_weather_app",
         liveDemo: "https://fs-weather-app-hmsy.vercel.app/",
-        tags: ["react", "html", "css", "API"]
-    }
+        tags: ["react", "html", "css", "API", "javascript"]
+    },
+    {
+        title: "Movie App",
+        description: "Movie App is a React application that fetches movie data from an API and displays movie posters, titles, and release dates. Users can hover over a movie to reveal a heart button, allowing them to favourite movies. Favourited movies are stored using local storage, ensuring they persist across sessions. A favorites page lets users view and manage their saved movies. This project showcases my skills in React, API integration, and state management while also being my first implementation of local storage.",
+        imgSrc: "movie_app.png",
+        github: "https://github.com/emferrari31/fs_movie_react",
+        liveDemo: "https://fs-movie-react.vercel.app/",
+        tags: ["react", "html", "css", "API", "javascript", "local storage"]
+    },
 ];
 
 // Append project cards to the portfolio section
