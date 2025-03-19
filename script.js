@@ -103,6 +103,14 @@ const projects = [
         liveDemo: "https://ecom.2024-emmaf.dev.io-academy.uk/",
         tags: ["react", "html", "css", "javascript"]
     },
+    {
+        title: "Weather App",
+        description: "This project is a full-stack weather application built with React and Vite, leveraging the OpenWeather API to provide real-time weather updates. The app features a clean, responsive design, dynamic weather icons, and smooth transitions for an engaging user experience. It was a great opportunity to refine my API handling, state management, and front-end styling skills.",
+        imgSrc: "weather_app.png",
+        github: "https://github.com/emferrari31/fs_weather_app",
+        liveDemo: "https://fs-weather-app-hmsy.vercel.app/",
+        tags: ["react", "html", "css", "API"]
+    }
 ];
 
 // Append project cards to the portfolio section
